@@ -2,7 +2,7 @@ package org.jimisaac.springmvc.boot;
 
 import lombok.RequiredArgsConstructor;
 import org.jimisaac.springmvc.model.Product;
-import org.jimisaac.springmvc.repositiry.ProductRepository;
+import org.jimisaac.springmvc.repository.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

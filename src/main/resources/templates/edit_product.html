@@ -19,7 +19,9 @@
                                     </div>
                                     <div class="card-body">
                                         <form th:object="${product}" th:action="@{/products}" method="post">
-                                            <input type="hidden" th:field="*{id}" />
+                                            <th:block th:if="*{id} != null">
+                                                <input type="hidden" th:field="*{id}" />
+                                            </th:block>
                                             <div class="mb-3 row">
                                                 <label class="col-sm-3 col-form-label">Name:</label>
                                                 <div class="col-sm-9">

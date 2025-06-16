@@ -1,4 +1,4 @@
-package org.jimisaac.springmvc.repositiry;
+package org.jimisaac.springmvc.repository;
 
 import org.jimisaac.springmvc.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
